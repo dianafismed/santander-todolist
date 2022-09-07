@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2{
+    color: rgb(233, 125, 125);
+    margin-bottom: 50px;
+}
+
+.container{
+    margin: 20px;
+    padding: 30px;
+    border: 1px solid rgb(233, 125, 125);
+    text-align: center;
+}
+
+input{
+    height: 30px;
+}
+
+button{
+    background-color: black;
+    color: whitesmoke;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.list{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid green;
+}
+
+.list h2{
+    text-align: center;
+}
+
+.checkInput{
+    width: 25px;
+}
+
+.boxLabel{
+    font-size: 22px;
+    padding: 5px;
+    margin: 0 0 5px 10px;
+}
